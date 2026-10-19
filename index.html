@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urna</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
@@ -16,31 +17,37 @@
     </header>
 
     <main>
-        <section id="votacao" class="tela ativa"></section>
-        <div class="urna">
-            <div class="visor">
-            <p class="rotulo">Digite o número do seu candidato</p>
-            <input type="text" id="numerovoto" maxlength="2" inputmode="numeric"  autocomplete="off">
-            <div id="previa" class="previa"> 
-        </div>
 
-        <div class="botoes-urna">
-            <button id="btnBranco" class="branco">Branco</button>
-            <button id="btnCorrige" class="corrige">Corrige</button>
-            <button id="btbConfirma" class="confirma">Confirma</button>            
-        </div>
-    </div>
-    <div id="fim">Fim</div>
-    <section id="candidatos" class="tela">
-        <h2>Cadastrar Candidatos</h2>
-        <form id="formCandidato">
-            <input type="text" id="nomeCandidato" placeholder="Nome do aluno" required>
-            <input type="text" id="numeroCandidato" placeholder="NúMERO (ex:10)" maxlength="2" inputmode="numeric">
-            <button type="sumbit">Adicionar</button>
-        </form>
+        <section id="votacao" class="tela ativa">
+           
+            <div id="urna">
+                <div class="visor">
+                    <p class="rotulo">Digite o número do seu candidato</p>
+                    <input type="text" id="numerovoto" maxlength="2" inputmode="numeric" autocomplete="off">
+                    <div id="previa" class="previa"></div> 
+                </div>
 
-        <h2>Candidatos cadastrados</h2>
-        <ul id="listaCandidatos"></ul>
+                <div class="botoes-urna">
+                    <button id="btnBranco" class="branco">Branco</button>
+                    <button id="btnCorrige" class="corrige">Corrige</button>
+                    <button id="btnConfirma" class="confirma">Confirma</button>            
+                </div>
+            </div>
+
+            <div id="fim" style="display: none;"><h1>FIM</h1></div>
+        </section>
+
+        <section id="candidatos" class="tela">
+            <h2>Cadastrar Candidatos</h2>
+            <form id="formCandidato">
+                <input type="text" id="nomeCandidato" placeholder="Nome do aluno" required>
+                <input type="text" id="numeroCandidato" placeholder="NÚMERO (ex: 10)" maxlength="2" inputmode="numeric" required>
+            
+                <button type="submit">Adicionar</button>
+            </form>
+
+            <h2>Candidatos cadastrados</h2>
+            <ul id="listaCandidatos"></ul>
         </section>
 
         <section id="resultado" class="tela">
@@ -51,6 +58,8 @@
         </section>
     </main>
 
-        <script src = "./script.js"></script>
+    <script src="./JS/script.js"></script>
 </body>
 </html>
+
+

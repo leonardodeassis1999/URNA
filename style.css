@@ -1,0 +1,260 @@
+body {
+    background-color: #0de2f1;
+    color: rgb(238, 227, 227);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 0px #140505;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+.aba {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #333333;
+    background: #121212;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.aba:hover {
+    background: #333333;
+}
+
+.aba.ativa {
+    background: #19dd74;
+    color: white;
+}
+
+.tela {
+    display: none;
+    padding: 20px;
+}
+
+.tela.ativa {
+    display: block;
+}
+
+#urna {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #d1d1d1;
+    border: 2px solid #444444;
+}
+
+.visor {
+    height: 195px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #eeeeee;
+    border: 2px solid #333333;
+    color: #222222;
+    text-align: left;
+}
+
+.rotulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#numerovoto {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #333333;
+    background: rgb(243, 242, 242);
+    color: #222222;
+    font-size: 24px;
+    text-align: center;
+}
+
+.previa {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.botoes-urna {
+    text-align: center;
+}
+
+.branco,
+.corrige,
+.confirma {
+    height: 40px;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 1px solid #333333;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.branco {
+    background: #FFFFFF;
+    color: #222222;
+}
+
+.corrige {
+    background: #F28C28;
+    color: #222222;
+}
+
+.confirma {
+    background: #00843D;
+    color: white;
+}
+
+.branco:hover {
+    background: #eeeeee;
+}
+
+.corrige:hover {
+    background: #e67e18;
+}
+
+.confirma:hover {
+    background: #006b31;
+}
+
+#fim {
+    margin: 20px auto;
+    padding: 30px;
+    background: #eeeeee;
+    color: #222222;
+    border: 2px solid #333333;
+}
+
+#fim h1 {
+    color: #222222;
+    text-shadow: none;
+}
+
+#formCandidato {
+    margin: 20px auto;
+}
+
+#nomeCandidato,
+#numeroCandidato {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #333333;
+    font-size: 16px;
+}
+
+#formCandidato button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #333333;
+    background: #00843D;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#formCandidato button:hover {
+    background: #006b31;
+}
+
+#listaCandidatos {
+    width: 80%;
+    margin: 20px auto;
+    list-style: none;
+}
+
+#listaCandidatos li {
+    padding: 12px;
+    margin: 8px;
+    background: #eeeeee;
+    color: #222222;
+    border: 1px solid #444444;
+}
+
+
+#totalVotos {
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#listaResultado {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#listaResultado .item-resultado {
+    padding: 12px;
+    margin: 8px;
+    background: #eeeeee;
+    color: #222222;
+    border: 1px solid #444444;
+}
+
+.perigo {
+    padding: 10px 20px;
+    margin: 15px;
+    border: 1px solid #333333;
+    background: #e00000;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.perigo:hover {
+    background: #b00000;
+}
+
+#listaCandidatos li button {
+    padding: 8px 12px;
+    margin-left: 10px;
+    background: #e00000;
+    color: white;
+    border: 1px solid #333333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.barra {
+    height: 20px;
+    background: #f8f8f8;
+    border: 1px solid #444444;
+}
+
+.barra div {
+    height: 20px;
+    background: #0af116;
+}
+
+
+
+
+
+
+
